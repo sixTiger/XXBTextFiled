@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "XXBTextFiled.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet XXBTextFiled *textFiled;
 
 @end
 
@@ -16,12 +18,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.textFiled.placeholderColor = [UIColor redColor];
+    self.textFiled.placeholderFount = [UIFont systemFontOfSize:10];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

@@ -35,6 +35,9 @@
                             <constraint firstItem="Pih-A5-ZVE" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="44" id="nS6-d7-D4Z"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="textFiled" destination="Pih-A5-ZVE" id="dea-Jd-vdH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
