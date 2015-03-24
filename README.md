@@ -4,4 +4,4 @@
 支持xib和纯代码
 
 
-![image](./imaget/1.png)
+![image](image/1.png)
